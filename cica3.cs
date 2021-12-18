@@ -5,9 +5,18 @@ class Program{
         for (int i = 0; i < 30; i++){
             ceca*=i;
         }
-            Console.WriteLine(ceca);
+       //     Console.WriteLine(ceca);
         Console.WriteLine("How old are you? :)");
-        int cecaev =int.Parse(Console.ReadLine());
-        Console.WriteLine(cecaev);
+        int cecaeve = 0;
+        do{
+        cecaeve =int.Parse(Console.ReadLine());
+       //Console.WriteLine(cecaeve);
+        }while(cecaeve > 11);
+    
+ 
+        Console.WriteLine("Wats your name? :)");
+       string cecaneve = Console.ReadLine();
+        //Console.WriteLine(cecaneve);
+        Console.WriteLine("Hello " + cecaneve + "(" + cecaeve + ")");
     }
 }
